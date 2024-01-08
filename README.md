@@ -1,5 +1,5 @@
 ## Languages
-[![English README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/us.png)](readme_en.md) [![Russian README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/ru.png)](README.md)
+[![Russian README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/ru.png)](README.md) [![English README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/us.png)](readme_en.md) [![Iran README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/ir.png)](README_ir.md)
 
 Original author: https://t.me/alexnotcoin
 
@@ -82,7 +82,7 @@ setInterval(click, 500);
 
 ## Автоматический запуск скрипта
 
-1. Установите расширение [Violentmonkey]([https://www.tampermonkey.net/](https://violentmonkey.github.io/get-it/)).
-2. Установите скрипт. _(Для автоматической установки можно перейти по [этой ссылке](https://github.com/mudachyo/notcoin_automation/raw/main/auto-click-notcoin.user.js))_
+1. Установите расширение [Violentmonkey](https://violentmonkey.github.io/get-it/).
+2. Установите скрипт. _(Для автоматической установки можно перейти по [этой ссылке](https://github.com/mudachyo/notcoin_automation/raw/main/auto-click-notcoin.user.js)_
 3. Теперь при открытии сайта с коинами скрипт будет запускаться автоматически
 

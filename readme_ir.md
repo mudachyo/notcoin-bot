@@ -1,53 +1,55 @@
 ## Languages
 [![Russian README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/ru.png)](README.md) [![English README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/us.png)](readme_en.md) [![Iran README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/ir.png)](README_ir.md)
 
-Original author: https://t.me/alexnotcoin
+نویسنده اصلی: https://t.me/alexnotcoin
 
-## Start Notcoin from a computer
+## Notcoin را از رایانه شروع کنید
 
-1. log in to [Telegram Web](https://web.telegram.org) from your computer.
-2. After authorization, go to [Notcoin Bot](https://web.telegram.org/k/#@notcoin_bot).
-3. Press F12 (or open the Source Code of the page), then click the Network tab. If necessary, refresh the page by pressing the F5 key.
-4. Press the button responsible for logging into the application.
-   ![img.png](img.png)
-5. Find the "event" event on the Network tab.
+1. از رایانه خود وارد [Telegram Web] (https://web.telegram.org) شوید.
+2. پس از مجوز، به [Notcoin Bot](https://web.telegram.org/k/#@notcoin_bot) بروید.
+3. F12 را فشار دهید (یا کد منبع صفحه را باز کنید)، سپس روی زبانه Network کلیک کنید. در صورت لزوم، صفحه را با فشردن کلید F5 Refresh کنید.
+4. دکمه مسئول ورود به برنامه را فشار دهید.
+    ![img.png](img.png)
+5. رویداد "رویداد" را در تب Network پیدا کنید.
 ![img_2.png](img_2.png)
-6. From the event we are interested in, copy the "u" parameter (the link will look something like the following:)
-   ```
+6. از رویداد مورد علاقه ما، پارامتر "u" را کپی کنید (لینک چیزی شبیه به زیر خواهد بود:)
+ ```
    https://clicker.joincommunity. xyz/clicker#tgWebAppData=query_id%*D**GO*-'' **AA**AI***gwalO3m%26user%3D%257B%2522id%2522%253A2****0478%252C%252[2first_name%2522%253A%2522*******%2522%252C%2522last_name%2522%253A%2522*******%2522%252C%2522username%2522%253A%2522******%2522%252C%2522language_code%2522%253A%2522ru%2522%252C%2522is_premium%2522%253Atrue%252C%2522allows_write_to_pm%2522%253Atrue%257D%26auth_date%3D170**16279%26hash%3D7dfa***db35***b593aa80f3***9858ca0649c5***cd001bf888888b770a3ff0e&tgWebAppVersion=7. 0&tgWebAppPlatform=web&tgWebAppThemeParams=%7B%22bg_color%22%3A%22%23ffffff%22%2C%22button_color%22%3A%22%233390ec%22%2C%22button_text_color%22%3A%22%23ffffff%22%2C%22hint_color%22%3A%22%23707579%22%2C%22link_color%22%3A%22%2300488f%22%2C%22secondary_bg_color%22%3A%22%23f4f4f5%22%2C%22text_color%22%3A%22%23000000%22%2C%22header_bg_color%22%3A%22%23ffffff%22%2C%22accent_text_color%22%3A%22%233390ec%22%2C%22section_bg_color%22%3A%22%23ffffff%22%2C%22section_header_text_color%22%3A%22%233390ec%22%2C%22subtitle_text_color%22%3A%22%23707579%22%2C%22destructive_text_color%22%3A%22%23df3f40%22%7D](https://clicker.joincommunity.xyz/clicker#tgWebAppData=query_id%*D**GO*-**AA**AI***gwalO3m%26user%3D%257B%2522id%2522%253A2****0478%252C%2522first_name%2522%253A%2522*******%2522%252C%2522last_name%2522%253A%2522*******%2522%252C%2522username%2522%253A%2522******%2522%252C%2522language_code%2522%253A%2522ru%2522%252C%2522is_premium%2522%253Atrue%252C%2522allows_write_to_pm%2522%253Atrue%257D%26auth_date%3D170**16279%26hash%3D7dfa***db35***b593aa80f3***9858ca0649c5***cd001bf888888b770a3ff0e&tgWebAppVersion=7.0&tgWebAppPlatform=web&tgWebAppThemeParams=%7B%22bg_color%22%3A%22%23ffffff%22%2C%22button_color%22%3A%22%233390ec%22%2C%22button_text_color%22%3A%22%23ffffff%22%2C%22hint_color%22%3A%22%23707579%22%2C%22link_color%22%3A%22%2300488f%22%2C%22secondary_bg_color%22%3A%22%23f4f4f5%22%2C%22text_color%22%3A%22%23000000%22%2C%22header_bg_color%22%3A%22%23ffffff%22%2C%22accent_text_color%22%3A%22%233390ec%22%2C%22section_bg_color%22%3A%22%23ffffff%22%2C%22section_header_text_color%22%3A%22%233390ec%22%2C%22subtitle_text_color%22%3A%22%23707579%22%2C%22destructive_text_color%22%3A%22%23df3f40%22%7D)
    ```
-7. In the copied link, replace the parameter "tgWebAppPlatform=web" with "tgWebAppPlatform=ios".
-tgWebAppPlatform=web
-We replace it with ios
+7. در لینک کپی شده، پارامتر "tgWebAppPlatform=web" را با "tgWebAppPlatform=ios" جایگزین کنید.
+tgWebAppPlatform=وب
+ما آن را با ios جایگزین می کنیم
 tgWebAppPlatform=ios.
-We send the modified link to the browser.
-8. Open the modified link in the browser.
+ما پیوند اصلاح شده را به مرورگر ارسال می کنیم.
+8. لینک اصلاح شده را در مرورگر باز کنید.
 ![img_3.png](img_3.png)
 
 
-### IMPORTANT
-Since 07.01 a session from the browser is kept for no more than 3 hours.
-For everything to work, you need to do the actions from 3 points
+### مهم
+از 07.01 یک جلسه از مرورگر بیش از 3 ساعت نگه داشته می شود.
+برای اینکه همه چیز کار کند، باید اقدامات را از 3 نقطه انجام دهید
 
-### Script for automating clicks
+### اسکریپت برای خودکارسازی کلیک ها
 
-This script allows you to automatically collect missiles that appear in the game, as well as automatically tap until a certain balance is reached. Below are the parameters that can be edited to customize the script:
+این اسکریپت به شما این امکان را می‌دهد که موشک‌هایی را که در بازی ظاهر می‌شوند به‌طور خودکار جمع‌آوری کنید، و همچنین به‌طور خودکار ضربه بزنید تا به تعادل خاصی دست پیدا کنید. در زیر پارامترهایی را می توان برای سفارشی کردن اسکریپت ویرایش کرد:
 
-- `globalscore`: the parameter responsible for determining the target balance. The script will automatically tap to reach this balance.
-- `countclicks`: parameter responsible for defining the number of taps to perform the function. The script will execute the function the specified number of times.
+- `globalscore`: پارامتری که مسئول تعیین تعادل هدف است. اسکریپت به طور خودکار ضربه می زند تا به این تعادل برسد.
+- `countclicks`: پارامتر مسئول تعیین تعداد ضربه ها برای انجام عملکرد. اسکریپت تابع را به تعداد مشخص شده اجرا می کند.
 
-By default, the script executes clicks every 500 ms, but you can experiment with this value to achieve the best results. 
-The script also works the same way on a minimized tab or browser.
+به‌طور پیش‌فرض، اسکریپت هر 500 میلی‌ثانیه کلیک را اجرا می‌کند، اما می‌توانید این مقدار را برای دستیابی به بهترین نتایج آزمایش کنید.
+این اسکریپت همچنین در یک تب یا مرورگر کوچک شده به همین روش کار می کند.
 
+``جاوا اسکریپت
 ```javascript
 setInterval(click, 500);
 ```
-### How to run
 
-1. Press the F12 key (or open the Source Code of the page),
-2. Paste the script below (if pasting is not allowed in your browser, then https://stackoverflow.com/questions/77587864/disable-paste-protection-in-chrome-devtools)
+### چگونه دویدن
 
-The script itself:
+1. کلید F12 را فشار دهید (یا کد منبع صفحه را باز کنید)،
+2. اسکریپت زیر را جای‌گذاری کنید (اگر چسباندن در مرورگر شما مجاز نیست، https://stackoverflow.com/questions/77587864/disable-paste-protection-in-chrome-devtools)
+
+خود فیلمنامه:
 ```javascript
 globalscore = 1000
 countclicks = 34
@@ -80,8 +82,8 @@ async function click() {
 setInterval(click, 500);
 ```
 
-## Automatic startup of the script
+## راه اندازی خودکار اسکریپت
 
-1. Install the [Violentmonkey](https://violentmonkey.github.io/get-it/) extension.
-2. Install the script. _(You can go to [this link](https://github.com/mudachyo/notcoin_automation/raw/main/auto-click-notcoin.user.js)_ for automatic installation.
-3. Now when you open a site with coins, the script will run automatically
+1. پسوند [Violentmonkey](https://violentmonkey.github.io/get-it/) را نصب کنید.
+2. اسکریپت را نصب کنید. _(می توانید برای نصب خودکار به [این لینک] (https://github.com/mudachyo/notcoin_automation/raw/main/auto-click-notcoin.user.js)_ بروید.
+3. حالا وقتی سایتی را با سکه باز می کنید، اسکریپت به صورت خودکار اجرا می شود
