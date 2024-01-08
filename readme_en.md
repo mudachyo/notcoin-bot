@@ -1,4 +1,5 @@
-# [![English README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/us.png)](readme_en.md) [![Russian README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/ru.png)](README.md)
+## Languages
+[![English README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/us.png)](readme_en.md) [![Russian README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/ru.png)](README.md)
 
 Original author: https://t.me/alexnotcoin
 
@@ -79,9 +80,8 @@ async function click() {
 setInterval(click, 500);
 ```
 
-## Automatic startup
+## Automatic startup of the script
 
-### Setup
 1. Install the [Violentmonkey]([https://www.tampermonkey.net/](https://violentmonkey.github.io/get-it/)) extension.
 2. Install the script. _(You can go to [this link](https://github.com/mudachyo/notcoin_automation/raw/main/auto-click-notcoin.user.js))_ for automatic installation.
-3. Now when you open a site with koins, the script will run automatically
+3. Now when you open a site with coins, the script will run automatically
