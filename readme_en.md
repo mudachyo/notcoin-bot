@@ -1,4 +1,4 @@
-# [![English README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/us.png)](https://github.com/mudachyo/notcoin_automation/blob/main/readme_en.md) [![Russian README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/ru.png)](https://github.com/mudachyo/notcoin_automation/blob/main/readme.md)
+# [![English README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/us.png)](readme_en.md) [![Russian README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/ru.png)](README.md)
 
 Original author: https://t.me/alexnotcoin
 
