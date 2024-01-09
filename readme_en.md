@@ -22,8 +22,7 @@ We replace it with ios
 tgWebAppPlatform=ios.
 We send the modified link to the browser.
 8. Open the modified link in the browser.
-![img_3.png](img_3.png)
-
+![Script work](autoclick.gif)
 
 ### IMPORTANT
 Since 07.01 a session from the browser is kept for no more than 3 hours.
