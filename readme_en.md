@@ -1,7 +1,7 @@
 ## Languages
 [![Russian README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/ru.png)](README.md) [![English README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/us.png)](readme_en.md) [![Iran README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/ir.png)](readme_ir.md)
 
-Original author: https://t.me/alexnotcoin
+https://t.me/mudachyo
 
 ## Start Notcoin from a computer
 
