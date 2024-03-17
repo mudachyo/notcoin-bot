@@ -1,5 +1,5 @@
 ## Languages
-[![Russian README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/ru.png)](README.md) [![English README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/us.png)](readme_en.md) [![Iran README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/ir.png)](readme_ir.md)
+[![Russian README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/ru.png)](../README.md) [![English README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/us.png)](readme_en.md) [![Iran README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/ir.png)](readme_ir.md)
 
 https://t.me/mudachyo
 ## Notcoin را از رایانه شروع کنید
@@ -8,9 +8,9 @@ https://t.me/mudachyo
 2. پس از مجوز، به [Notcoin Bot](https://web.telegram.org/k/#@notcoin_bot) بروید.
 3. F12 را فشار دهید (یا کد منبع صفحه را باز کنید)، سپس روی زبانه Network کلیک کنید. در صورت لزوم، صفحه را با فشردن کلید F5 Refresh کنید.
 4. دکمه مسئول ورود به برنامه را فشار دهید.
-    ![img.png](img.png)
+    ![img.png](/assets/img.png)
 5. رویداد "رویداد" را در تب Network پیدا کنید.
-![img_2.png](img_2.png)
+![img_2.png](/assets/img_2.png)
 6. از رویداد مورد علاقه ما، پارامتر "u" را کپی کنید (لینک چیزی شبیه به زیر خواهد بود:)
  ```
    https://clicker.joincommunity. xyz/clicker#tgWebAppData=query_id%*D**GO*-'' **AA**AI***gwalO3m%26user%3D%257B%2522id%2522%253A2****0478%252C%252[2first_name%2522%253A%2522*******%2522%252C%2522last_name%2522%253A%2522*******%2522%252C%2522username%2522%253A%2522******%2522%252C%2522language_code%2522%253A%2522ru%2522%252C%2522is_premium%2522%253Atrue%252C%2522allows_write_to_pm%2522%253Atrue%257D%26auth_date%3D170**16279%26hash%3D7dfa***db35***b593aa80f3***9858ca0649c5***cd001bf888888b770a3ff0e&tgWebAppVersion=7. 0&tgWebAppPlatform=web&tgWebAppThemeParams=%7B%22bg_color%22%3A%22%23ffffff%22%2C%22button_color%22%3A%22%233390ec%22%2C%22button_text_color%22%3A%22%23ffffff%22%2C%22hint_color%22%3A%22%23707579%22%2C%22link_color%22%3A%22%2300488f%22%2C%22secondary_bg_color%22%3A%22%23f4f4f5%22%2C%22text_color%22%3A%22%23000000%22%2C%22header_bg_color%22%3A%22%23ffffff%22%2C%22accent_text_color%22%3A%22%233390ec%22%2C%22section_bg_color%22%3A%22%23ffffff%22%2C%22section_header_text_color%22%3A%22%233390ec%22%2C%22subtitle_text_color%22%3A%22%23707579%22%2C%22destructive_text_color%22%3A%22%23df3f40%22%7D](https://clicker.joincommunity.xyz/clicker#tgWebAppData=query_id%*D**GO*-**AA**AI***gwalO3m%26user%3D%257B%2522id%2522%253A2****0478%252C%2522first_name%2522%253A%2522*******%2522%252C%2522last_name%2522%253A%2522*******%2522%252C%2522username%2522%253A%2522******%2522%252C%2522language_code%2522%253A%2522ru%2522%252C%2522is_premium%2522%253Atrue%252C%2522allows_write_to_pm%2522%253Atrue%257D%26auth_date%3D170**16279%26hash%3D7dfa***db35***b593aa80f3***9858ca0649c5***cd001bf888888b770a3ff0e&tgWebAppVersion=7.0&tgWebAppPlatform=web&tgWebAppThemeParams=%7B%22bg_color%22%3A%22%23ffffff%22%2C%22button_color%22%3A%22%233390ec%22%2C%22button_text_color%22%3A%22%23ffffff%22%2C%22hint_color%22%3A%22%23707579%22%2C%22link_color%22%3A%22%2300488f%22%2C%22secondary_bg_color%22%3A%22%23f4f4f5%22%2C%22text_color%22%3A%22%23000000%22%2C%22header_bg_color%22%3A%22%23ffffff%22%2C%22accent_text_color%22%3A%22%233390ec%22%2C%22section_bg_color%22%3A%22%23ffffff%22%2C%22section_header_text_color%22%3A%22%233390ec%22%2C%22subtitle_text_color%22%3A%22%23707579%22%2C%22destructive_text_color%22%3A%22%23df3f40%22%7D)
@@ -21,11 +21,15 @@ tgWebAppPlatform=وب
 tgWebAppPlatform=ios.
 ما پیوند اصلاح شده را به مرورگر ارسال می کنیم.
 8. لینک اصلاح شده را در مرورگر باز کنید.
-![کار اسکریپت](autoclick.gif)
+![کار اسکریپت](/assets/autoclick.gif)
 
 ### مهم
 از 07.01 یک جلسه از مرورگر بیش از 3 ساعت نگه داشته می شود.
 برای اینکه همه چیز کار کند، باید اقدامات را از 3 نقطه انجام دهید
+
+### به پروژه ستاره بدهید ⭐
+ساده ترین راه برای پشتیبانی، دادن ستاره به پروژه در GitHub/GitLab است:
+![ستاره بگذارید](/assets/star.gif)
 
 ### اسکریپت برای خودکارسازی کلیک ها
 
