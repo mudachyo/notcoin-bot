@@ -14,16 +14,18 @@ https://t.me/mudachyo
 5. Найдите событие "event" на вкладке "Сеть".
    
    ![img_2.png](/assets/img_2.png)
-1. Из интересующего нас события скопируйте параметр "u" (ссылка будет иметь примерно следующий вид):
+6. Из интересующего нас события скопируйте параметр "u" (ссылка будет иметь примерно следующий вид):
    ```
    https://clicker.joincommunity.xyz/clicker#tgWebAppData=query_id%*D**GO*-**AA**AI***gwalO3m%26user%3D%257B%2522id%2522%253A2****0478%252C%2522first_name%2522%253A%2522*******%2522%252C%2522last_name%2522%253A%2522*******%2522%252C%2522username%2522%253A%2522******%2522%252C%2522language_code%2522%253A%2522ru%2522%252C%2522is_premium%2522%253Atrue%252C%2522allows_write_to_pm%2522%253Atrue%257D%26auth_date%3D170**16279%26hash%3D7dfa***db35***b593aa80f3***9858ca0649c5***cd001bf888888b770a3ff0e&tgWebAppVersion=7.0&tgWebAppPlatform=web&tgWebAppThemeParams=%7B%22bg_color%22%3A%22%23ffffff%22%2C%22button_color%22%3A%22%233390ec%22%2C%22button_text_color%22%3A%22%23ffffff%22%2C%22hint_color%22%3A%22%23707579%22%2C%22link_color%22%3A%22%2300488f%22%2C%22secondary_bg_color%22%3A%22%23f4f4f5%22%2C%22text_color%22%3A%22%23000000%22%2C%22header_bg_color%22%3A%22%23ffffff%22%2C%22accent_text_color%22%3A%22%233390ec%22%2C%22section_bg_color%22%3A%22%23ffffff%22%2C%22section_header_text_color%22%3A%22%233390ec%22%2C%22subtitle_text_color%22%3A%22%23707579%22%2C%22destructive_text_color%22%3A%22%23df3f40%22%7D
    ```
-2. В скопированной ссылке замените параметр "tgWebAppPlatform=web" на "tgWebAppPlatform=ios".
+7. В скопированной ссылке замените параметр "tgWebAppPlatform=web" на "tgWebAppPlatform=ios".
 tgWebAppPlatform=web
 Мы его заменяем на ios
 tgWebAppPlatform=ios.
-Измененную ссылку отправляем в браузер.
-1. Откройте измененную ссылку в браузере.
+Измененную ссылку отправляем в браузер. 
+
+   ### Для того, чтобы не проводить замену вручную был создан сайт, куда вы можете вставить полученную ссылку из вкладки "Сеть" и получить уже изменённую ссылку. https://mudachyo.github.io/notcoin-modify-url/
+8. Откройте измененную ссылку в браузере.
    
    ![Работа скрипта](/assets/autoclick.gif)
 

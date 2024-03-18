@@ -23,6 +23,8 @@ tgWebAppPlatform=web
 We replace it with ios
 tgWebAppPlatform=ios.
 We send the modified link to the browser.
+
+   ### In order not to perform the replacement manually, a site has been created where you can paste the received link from the "Network" tab and get the already changed link. https://mudachyo.github.io/notcoin-modify-url/
 1. Open the modified link in the browser.
    
    ![Script work](/assets/autoclick.gif)
