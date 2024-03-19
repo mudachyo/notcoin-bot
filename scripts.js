@@ -26,4 +26,5 @@ async function click() {
     }
 }
 
+
 setInterval(click, 500);
