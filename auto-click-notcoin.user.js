@@ -4,7 +4,7 @@
 // @match        https://clicker.joincommunity.xyz/clicker*
 // @version      1.1
 // @author       mudachyo
-// @description  18.03.2024, 04:40:59
+// @description  20.03.2024, 17:27:40
 // ==/UserScript==
 
 (function() {
