@@ -89,5 +89,5 @@ setInterval(click, 500);
 ## راه اندازی خودکار اسکریپت
 
 1. پسوند [Violentmonkey](https://violentmonkey.github.io/get-it/) را نصب کنید.
-2. اسکریپت را نصب کنید. _(می توانید برای نصب خودکار به [این لینک] (https://github.com/mudachyo/notcoin_automation/raw/main/auto-click-notcoin.user.js)_ بروید.
+2. اسکریپت را نصب کنید. _(می توانید برای نصب خودکار به [این لینک] (https://github.com/mudachyo/notcoin-bot/raw/main/auto-click-notcoin.user.js)_ بروید.
 3. حالا وقتی سایتی را با سکه باز می کنید، اسکریپت به صورت خودکار اجرا می شود

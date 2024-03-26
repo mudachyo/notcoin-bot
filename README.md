@@ -92,6 +92,6 @@ setInterval(click, 500);
 ## Автоматический запуск скрипта
 
 1. Установите расширение [Violentmonkey](https://violentmonkey.github.io/get-it/).
-2. Установите скрипт. _(Для автоматической установки можно перейти по [этой ссылке](https://github.com/mudachyo/notcoin_automation/raw/main/auto-click-notcoin.user.js)_
+2. Установите скрипт. _(Для автоматической установки можно перейти по [этой ссылке](https://github.com/mudachyo/notcoin-bot/raw/main/auto-click-notcoin.user.js)_
 3. Теперь при открытии сайта с коинами скрипт будет запускаться автоматически
 
