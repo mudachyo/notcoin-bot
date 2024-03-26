@@ -8,6 +8,7 @@
 // @downloadURL  https://github.com/mudachyo/notcoin-bot/raw/main/auto-click-notcoin.user.js
 // @updateURL    https://github.com/mudachyo/notcoin-bot/raw/main/auto-click-notcoin.user.js
 // @homepage     https://github.com/mudachyo/notcoin-bot
+// @icon         https://cdn.joincommunity.xyz/clicker/moneta-small.png
 // ==/UserScript==
 
 (function() {
