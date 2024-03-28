@@ -2,9 +2,9 @@
 // @name         Auto-Click NOTCOIN
 // @namespace    Violentmonkey Scripts
 // @match        https://clicker.joincommunity.xyz/clicker*
-// @version      1.2
+// @version      2.0
 // @author       mudachyo
-// @description  26.03.2024, 21:40:01
+// @description  28.03.2024, 17:33:45
 // @downloadURL  https://github.com/mudachyo/notcoin-bot/raw/main/auto-click-notcoin.user.js
 // @updateURL    https://github.com/mudachyo/notcoin-bot/raw/main/auto-click-notcoin.user.js
 // @homepage     https://github.com/mudachyo/notcoin-bot
@@ -14,37 +14,63 @@
 (function() {
     'use strict';
 
-    setTimeout(click, 3000); // Задержка перед началом клика. НЕ РЕКОМЕНДУЕТСЯ ТРОГАТЬ! // Delay before click start IT IS NOT RECOMMENDED TO TOUCH!
+    // Configuration options
+    const minimumEnergyForClick = 1000; // Minimum energy required to perform a click on the coin
+    const min_click_count = 30; // Minimum number of clicks to perform in each auto-click cycle
+    const max_click_count = 100; // Maximum number of clicks to perform in each auto-click cycle
+    const clickInterval = 500; // Time interval (in milliseconds) between auto-click cycles
 
-    async function click() {
-        const globalScore = 1000; // Минимальное кол-во энергии для клика // Minimum amount of energy for a click
-        const countclicks = 34; // Количество кликов // Number of clicks
-        const coinElements = document.querySelectorAll('div[class^="_notcoin"]');
-        const scoreElement = document.querySelector('div[class^="_scoreCurrent"]');
-        let score = parseInt(scoreElement.textContent);
-
+    // Function to click on the coin element
+    async function clickCoin() {
         try {
-            // Попытка нажать на ракету, если она есть // Attempt to click on the rocket, if there is one
-            const rocketElements = document.querySelectorAll('img[class^="_root"]');
-            rocketElements[0][Object.keys(rocketElements[0])[1]].onClick();
+            const coinElement = document.querySelector('div[class^="_notcoin"]');
+            if (coinElement) {
+                await new Promise((resolve) => {
+                    coinElement[Object.keys(coinElement)[1]].onTouchStart('');
+                    setTimeout(resolve, 100);
+                });
+            }
         } catch (error) {}
+    }
 
-        for (let step = 0; step < countclicks; step++) {
-            score = parseInt(scoreElement.textContent);
+    // Function to click on the rocket element, if it exists
+    async function clickRocket() {
+        const rocketElement = document.querySelector('img[class^="_root"]');
+        if (rocketElement) {
+            try {
+                rocketElement[Object.keys(rocketElement)[1]].onClick();
+            } catch (error) {
+                console.error('Error clicking rocket:', error);
+            }
+        }
+    }
 
-            if (score > globalScore) {
-                try {
-                    // Клик на монету // Click on the coin
-                    await new Promise((resolve) => {
-                        coinElements[0][Object.keys(coinElements[0])[1]].onTouchStart('');
-                        setTimeout(resolve, 100);
-                    });
-                } catch (error) {}
+    // Main function to perform the auto-clicking
+    async function autoClick() {
+        const scoreElement = document.querySelector('div[class^="_scoreCurrent"]');
+        let currentScore = parseInt(scoreElement.textContent);
+
+        // Click on the rocket first, if available
+        await clickRocket();
+
+        // Generate a random number of clicks between min and max
+        const numberOfClicks = Math.floor(Math.random() * (max_click_count - min_click_count + 1)) + min_click_count;
+
+
+
+        // Click on the coin repeatedly until the energy is depleted or the click count is reached
+        for (let i = 0; i < numberOfClicks; i++) {
+            if (currentScore > minimumEnergyForClick) {
+                await clickCoin();
+                currentScore = parseInt(scoreElement.textContent);
+                // Log the generated numberOfClicks value
+                console.info(`%c ${numberOfClicks}`, 'color: #64b5f6');
             } else {
                 break;
             }
         }
     }
 
-    setInterval(click, 500); // Повторять клик каждые 500 миллисекунд // Repeat the click every 500 milliseconds
+    // Repeat the auto-clicking process every clickInterval milliseconds
+    setInterval(autoClick, clickInterval);
 })();
