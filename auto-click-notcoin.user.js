@@ -70,7 +70,6 @@
             }
         }
     }
-
     // Repeat the auto-clicking process every clickInterval milliseconds
     setInterval(autoClick, clickInterval);
 })();
