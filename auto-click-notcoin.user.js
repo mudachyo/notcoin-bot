@@ -15,7 +15,7 @@
     'use strict';
 
     // Configuration options
-    const minimumEnergyForClick = 1000; // Minimum energy required to perform a click on the coin
+    const minimumEnergyForClick = 900; // Minimum energy required to perform a click on the coin
     const min_click_count = 30; // Minimum number of clicks to perform in each auto-click cycle
     const max_click_count = 100; // Maximum number of clicks to perform in each auto-click cycle
     const clickInterval = 500; // Time interval (in milliseconds) between auto-click cycles
