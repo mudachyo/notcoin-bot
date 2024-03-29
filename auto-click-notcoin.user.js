@@ -2,7 +2,7 @@
 // @name         Auto-Click NOTCOIN
 // @namespace    Violentmonkey Scripts
 // @match        https://clicker.joincommunity.xyz/clicker*
-// @version      2.0
+// @version      2.1
 // @author       mudachyo
 // @description  28.03.2024, 17:33:45
 // @downloadURL  https://github.com/mudachyo/notcoin-bot/raw/main/auto-click-notcoin.user.js
