@@ -34,7 +34,7 @@ Since 07.01 a session from the browser is kept for no more than 3 hours.
 For everything to work, you need to do the actions from 3 points
 
 ### Give the project a star ⭐
-The easiest way to support is to give the project a star on GitHub/GitLab:
+The easiest way to support is to give the project a star on GitHub:
 
 ![Put a star](/assets/star.gif)
 
