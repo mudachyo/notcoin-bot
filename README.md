@@ -1,3 +1,19 @@
+Пожертвование
+---
+Мы принимаем следующие криптовалюты:
+
+- **TON**: `UQCGUzPN5GnFqWJiYsFtqqLGO75-cBXlOL8f_qbd7yKY2Tzh`
+
+- **USDT**(TRC20): `TFr8CiAPqEnSyoXHtVefWumodcXgjoB8rS`
+
+- **USDT**(TON): `UQCGUzPN5GnFqWJiYsFtqqLGO75-cBXlOL8f_qbd7yKY2Tzh`
+
+- **NOTCOIN**(TON): `UQCGUzPN5GnFqWJiYsFtqqLGO75-cBXlOL8f_qbd7yKY2Tzh`
+
+- **BTC**: `1Mba8xKKVLdcFJdV7jD8Ba3fFn7DWbp4bt`
+
+Пожертвования будут использованы для поддержания/сохранения проекта.
+
 ## Languages
 [![Russian README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/ru.png)](README.md) [![English README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/us.png)](/translations/readme_en.md) [![Iran README](https://raw.githubusercontent.com/hjnilsson/country-flags/master/png100px/ir.png)](/translations/readme_ir.md)
 
